@@ -660,6 +660,17 @@ ul {
 
 /* Mobile Responsiveness */
 @media (max-width: 991px) {
+
+    /* Disable Custom Cursor on Mobile */
+    .cursor-dot,
+    .cursor-outline {
+        display: none;
+    }
+
+    body {
+        cursor: auto;
+    }
+
     .section {
         padding: 80px 5%;
         opacity: 1;
