@@ -16,7 +16,7 @@ window.addEventListener('mousemove', (e) => {
 });
 
 /* Typing Effect */
-const texts = ["Systems Engineer", "Backend Developer", "Algorithm Optimizer", "Open Source Contributor"];
+const texts = ["software.", "applications.", "and learn."];
 let count = 0;
 let index = 0;
 let currentText = "";
